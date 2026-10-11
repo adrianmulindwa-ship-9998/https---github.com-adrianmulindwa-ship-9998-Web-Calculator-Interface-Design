@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Modern Web Calculator Interface Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="math.png">
+</head>
+<body>
+     <main class="calculator-container" aria-label="Calculator">
+        <!-- Display Screen -->
+        <section class="calculator-display" aria-label="Display screen">
+            <span class="display-value">0</span>
+        </section>
+
+        <!-- Keypad Grid -->
+        <section class="calculator-keypad" aria-label="Keypad">
+            <!-- Row 1 -->
+            <button class="calc-btn btn-light" type="button" aria-label="All Clear">AC</button>
+            <button class="calc-btn btn-dark" type="button" aria-label="Double zero">00</button>
+            <button class="calc-btn btn-dark" type="button" aria-label="Percent">%</button>
+            <button class="calc-btn btn-orange" type="button" aria-label="Divide">÷</button>
+
+            <!-- Row 2 -->
+            <button class="calc-btn btn-dark" type="button">7</button>
+            <button class="calc-btn btn-dark" type="button">8</button>
+            <button class="calc-btn btn-dark" type="button">9</button>
+            <button class="calc-btn btn-orange" type="button" aria-label="Multiply">x</button>
+
+            <!-- Row 3 -->
+            <button class="calc-btn btn-dark" type="button">4</button>
+            <button class="calc-btn btn-dark" type="button">5</button>
+            <button class="calc-btn btn-dark" type="button">6</button>
+            <button class="calc-btn btn-orange" type="button" aria-label="Subtract">-</button>
+
+            <!-- Row 4 -->
+            <button class="calc-btn btn-dark" type="button">1</button>
+            <button class="calc-btn btn-dark" type="button">2</button>
+            <button class="calc-btn btn-dark" type="button">3</button>
+            <button class="calc-btn btn-orange" type="button" aria-label="Add">+</button>
+
+            <!-- Row 5 -->
+            <button class="calc-btn btn-dark btn-zero" type="button">0</button>
+            <button class="calc-btn btn-dark" type="button" aria-label="Decimal point">.</button>
+            <button class="calc-btn btn-orange" type="button" aria-label="Equals">=</button>
+        </section>
+    </main>
+
+</body>
+</html>
